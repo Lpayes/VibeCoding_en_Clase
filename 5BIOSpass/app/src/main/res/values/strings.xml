@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">5BIOSpass</string>
+    <string name="scan_status_scanning">Estado: Escaneando...</string>
+    <string name="scan_status_success">Estado: Éxito</string>
+    <string name="scan_status_fail">Estado: Fallo</string>
+    <string name="scan_status_permanent_fail">Estado: Fallo permanente. Use registro manual.</string>
+    <string name="scan_time">Tiempo: %1$d ms</string>
+    <string name="metrics_text">Promedio tiempo: %1$d ms\nRegistros: %2$d</string>
+    <string name="error_loading_data">Error al cargar datos</string>
+    <string name="enter_nationality">Por favor ingrese la nacionalidad.</string>
+    <string name="manual_saved">Registro manual guardado exitosamente.</string>
+</resources>

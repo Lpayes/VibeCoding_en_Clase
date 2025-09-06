@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_filter"
+        android:title="Filtrar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_report"
+        android:title="Reporte"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="Ajustes"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="ifRoom" />
+</menu>
+

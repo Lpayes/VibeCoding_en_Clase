@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lista1_de_Compras</string>
+    <string name="prompt_estado">Estado</string>
+</resources>

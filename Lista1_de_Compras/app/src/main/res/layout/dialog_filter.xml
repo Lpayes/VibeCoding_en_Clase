@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diálogo para filtrar productos por estado y rango de fechas -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp">
+
+    <Spinner
+        android:id="@+id/spFilterStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="16dp"
+        android:prompt="@string/prompt_estado" />
+
+    <EditText
+        android:id="@+id/etStartDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Fecha inicio (yyyy-MM-dd)"
+        android:focusable="false"
+        app:layout_constraintTop_toBottomOf="@id/spFilterStatus"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/etEndDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Fecha fin (yyyy-MM-dd)"
+        android:focusable="false"
+        app:layout_constraintTop_toBottomOf="@id/etStartDate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnApplyFilter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Aplicar filtro"
+        app:layout_constraintTop_toBottomOf="@id/etEndDate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
